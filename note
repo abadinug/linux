@@ -14,3 +14,27 @@ sudo apt install cairo-dock
 ---
 uninstall app
 sudo apt remove --purge [nama app] contoh :  sudo apt remove --purge plank
+rm -r ~/.config/plank
+---
+# flatpak
+sudo apt install flatpak
+flatpak --version
+# add repository flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak update
+# cari aplikasi di flatpak
+flatpak search nama_aplikasi
+# install aplikasi
+flatpak install flathub nama_aplikasi [ pakai kode app ]
+contoh : flatpak install flathub org.videolan.VLC
+flatpak run org.videolan.VLC
+# hapus 
+flatpak uninstall nama_aplikasi
+# hapus semua data pada aplikasi 
+flatpak uninstall --delete-data nama_aplikasi
+# cek aplikasi
+flatpak list
+# cari aplikasi
+flatpak search nama_aplikasi
+
+
