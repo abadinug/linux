@@ -7,4 +7,10 @@ cek spek
 sudo apt install neofetch
 cek aplikasi terinstall di linux
 apt list --installed
+---
+dock
+sudo apt install cairo-dock
 
+---
+uninstall app
+sudo apt remove --purge [nama app] contoh :  sudo apt remove --purge plank
