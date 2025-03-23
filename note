@@ -3,7 +3,8 @@ sudo nano /etc/apt/sources.list.d/ubuntu.sources
 sudo nano /etc/apt/sources.list.d/dvd.list
 
 --
-
+cek spek
 sudo apt install neofetch
-
+cek aplikasi terinstall di linux
+apt list --installed
 
